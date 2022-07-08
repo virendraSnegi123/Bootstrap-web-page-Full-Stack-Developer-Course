@@ -1,0 +1,52 @@
+.Aboutpage {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.Aboutpage h3 {
+    color: #030bff;
+}
+
+.Aboutpage h3 span {
+    color: #ff0000;
+}
+
+.Aboutpage h4 {
+    color: #030bff;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.Aboutpage h4 span {
+    color: #ff0000;
+}
+
+.Aboutpage a {
+    color: #fff;
+    border: 2px solid skyblue;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 6px;
+    font-weight: 600;
+    font-size: 16px;
+    background: linear-gradient(rgb(120, 146, 194), #476e9e);
+    text-shadow: 0px 1px 0px #3d768a;
+    box-shadow: 1px 0px 10px 2px #3d768a;
+    text-decoration: none;
+    pointer-events: painted;
+}
+
+.Aboutpage a span {
+    color: #ff2f00;
+}
+
+.aboutimg {
+    /* border: #000000 solid 2px; */
+    border-radius: 15px;
+    box-shadow: 0px 0px 14px 4px #424242;
+    transition: all 1s ease-in-out;
+}
+
+.aboutimg:hover {
+    transform: scale(1.1);
+}
